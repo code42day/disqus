@@ -3,7 +3,7 @@
   "repo": "code42day/disqus",
   "demo": "http://scenicbyways.info/byway/2286.html",
   "description": "Loads disqus threads",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "keywords": [
     "disqus"
   ],

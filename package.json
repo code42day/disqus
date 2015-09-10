@@ -1,6 +1,6 @@
 {
   "name": "code42day-disqus",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Loads disqus threads",
   "scripts": {
     "test": "make check"
