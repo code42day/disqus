@@ -26,7 +26,7 @@ function forEachParam(fn) {
 function loadDisqus(script) {
   if (!window.disqus_shortname) {
     // at the minimum shortname needs to be defined
-    console.err('"shortname" parameter missing');
+    console.error('"shortname" parameter missing');
     return;
   }
 
