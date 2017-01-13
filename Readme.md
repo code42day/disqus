@@ -1,3 +1,5 @@
+[![NPM version][npm-image]][npm-url]
+[![Dependency Status][gemnasium-image]][gemnasium-url]
 
 # disqus
 
@@ -8,9 +10,9 @@ See in the wild on the [American Scenic Byways][byways.site] website - _[source]
 
 ## Installation
 
-Install with [component(1)](http://component.io):
+Install with [npm(1)](https://www.npmjs.com):
 
-    $ component install code42day/disqus
+    $ npm install --save code42day-disqus
 
 ## API
 
@@ -57,3 +59,9 @@ If no `#disqus_thread` element is found we die silently.
 [disqus.config]: http://help.disqus.com/customer/portal/articles/472098-javascript-configuration-variables
 [byways.site]: http://scenicbyways.info/byway/2286.html
 [byways.src]: https://github.com/code42day/byways
+
+[npm-image]: https://img.shields.io/npm/v/code42day-disqus.svg
+[npm-url]: https://npmjs.org/package/code42day-disqus
+
+[gemnasium-image]: https://img.shields.io/gemnasium/code42day/disqus.svg
+[gemnasium-url]: https://gemnasium.com/code42day/disqus
