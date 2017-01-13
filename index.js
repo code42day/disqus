@@ -30,7 +30,7 @@ function loadDisqus(script) {
     return;
   }
 
-  load('//' + window.disqus_shortname + '.disqus.com/' + script);
+  load('https://' + window.disqus_shortname + '.disqus.com/' + script);
 }
 
 function embed(opts) {
