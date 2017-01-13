@@ -24,5 +24,8 @@
   },
   "browser": {
     "load": "code42day-load"
-  }
+  },
+  "files": [
+    "index.js"
+  ]
 }
