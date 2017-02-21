@@ -12,7 +12,7 @@ See in the wild on the [American Scenic Byways][byways.site] website - _[source]
 
 Install with [npm(1)](https://www.npmjs.com):
 
-    $ npm install --save code42day-disqus
+    $ npm install --save disqus-snippet
 
 ## API
 
@@ -58,10 +58,10 @@ If no `#disqus_thread` element is found we die silently.
 [disqus]: http://disqus.com
 [disqus.config]: http://help.disqus.com/customer/portal/articles/472098-javascript-configuration-variables
 [byways.site]: http://scenicbyways.info/byway/2286.html
-[byways.src]: https://github.com/code42day/byways
+[byways.src]: https://github.com/pirxpilot/byways
 
-[npm-image]: https://img.shields.io/npm/v/code42day-disqus.svg
-[npm-url]: https://npmjs.org/package/code42day-disqus
+[npm-image]: https://img.shields.io/npm/v/disqus-snippet.svg
+[npm-url]: https://npmjs.org/package/disqus-snippet
 
-[gemnasium-image]: https://img.shields.io/gemnasium/code42day/disqus.svg
-[gemnasium-url]: https://gemnasium.com/code42day/disqus
+[gemnasium-image]: https://img.shields.io/gemnasium/pirxpilot/disqus-snippet.svg
+[gemnasium-url]: https://gemnasium.com/pirxpilot/disqus-snippet
