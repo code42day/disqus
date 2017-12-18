@@ -1,5 +1,4 @@
 var load = require('load');
-var dataset = require('dataset');
 
 function setParam(key, value) {
   if (value) {
@@ -34,16 +33,15 @@ function loadDisqus(script) {
 }
 
 function embed(opts) {
-  var el = document.getElementById('disqus_thread'), ds;
+  var el = document.getElementById('disqus_thread');
   if (!el) {
     // nothing to do - no #disqus_thread element
     return;
   }
-  ds = dataset(el);
   // set params from dataset unless already set
   forEachParam(function(param) {
     if (!opts || !opts[param]) {
-      setParam(param, ds.get(param));
+      setParam(param, el.dataset[param]);
     }
   });
   loadDisqus('embed.js');

@@ -16,8 +16,7 @@
   "author": "Damian Krzeminski <pirxpilot@furkot.com>",
   "license": "MIT",
   "dependencies": {
-    "dynload": "^1.0.2",
-    "dataset": "^0.3.2"
+    "dynload": "^1.0.2"
   },
   "browser": {
     "load": "dynload"
