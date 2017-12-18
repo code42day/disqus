@@ -1,4 +1,9 @@
 
+2.0.0 / 2017-12-17
+==================
+
+ * remove dataset dependency - requires IE >= 11 or dataset polyfill
+
 1.3.2 / 2017-03-08
 ==================
 
