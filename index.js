@@ -1,4 +1,4 @@
-var load = require('load');
+var load = require('dynload');
 
 function setParam(key, value) {
   if (value) {
